@@ -1,0 +1,732 @@
+.mian{
+    width: 100%;
+    padding:0 0.35rem;
+    height:0.72rem;
+
+}
+.mian a{
+   font-size: 18px;
+    color: #4A4848;
+    line-height:0.72rem;
+}
+.xuanx{
+    margin:0;
+    padding:0;
+    margin-left:0.35rem;
+    margin-right:0.35rem;
+    height:0.8rem;
+    border:1px solid #01B5FF;
+    border-radius: 0.15rem;
+    /*overflow: hidden;*/
+}
+.xuanx li{
+    list-style: none;
+    float: left;
+    width: 33.333333%;
+    text-align: center;
+    line-height: 0.8rem;
+    color: #111111;
+    font-size:14px;
+    border-radius: 0.1rem;
+}
+.xuanx .xuz{
+    color:#fff;
+    background:#01B5FF;
+    position: relative;
+}
+.xuanx .xuz::before{
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    border:8px solid #01B5FF;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    position: absolute;
+    left:0;
+    right:0;
+    top:0.7rem;
+    margin:0 auto;
+}
+.ka{
+    margin:0;
+    padding:0;
+    margin-top:10px;
+}
+.ka li{
+    margin:0 0.35rem;
+    list-style: none;
+    height:2.7rem;
+    background: #fff;
+    margin-top:10px;
+    padding:0.2rem 0.2rem;
+
+
+}
+.ka li a{
+    float: left;
+    width:40%;
+
+
+}
+.ka li img{
+
+    height: 2.3rem;
+
+
+}
+.right{
+    width:60%;
+    float: left;
+}
+.ka li h4{
+    color: #111;
+    font-size: 14px;
+    margin:0;
+    line-height: 25px;
+    width:85px;
+    height:24px;
+    float: left;
+    border-bottom:1px dashed #111;
+}
+.ka li span{
+    float: right;
+    color: #FF9300;
+    line-height:25px;
+}
+.ka li h5{
+    color: #111;
+    font-size: 12px;
+    margin:0;
+    line-height:25px;
+    float: left;
+}
+.ka li p{
+    width: 100%;
+    margin:0;
+
+    font-size: 12px;
+    color: #111;
+    margin-top:10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp:2;
+
+
+}
+
+.didi{
+    height:0.7rem;
+    padding:0 0.35rem;
+    background: #fff;
+    margin-top:10px;
+
+}
+.didi .xz{
+    width: 0.6rem;
+    height:0.30rem;
+    border:1px solid #999;
+    border-radius:0.5rem;
+    margin-top:0.2rem;
+    margin-right:5px;
+    float: left;
+    /*padding:0.02rem 0.04rem;*/
+
+
+
+}
+.didi .xz .nei{
+
+    width:90%;
+    height:90%;
+    margin:2% auto;
+    border:1px solid #333;
+    border-radius:0.5rem;
+    text-align: center;
+    position: relative;
+
+
+}
+.didi .xz .nei .xzjt{
+    padding:0!important;
+    color: #111;
+    font-size:18px;
+    position: absolute;
+    left:50%;
+    margin-left:-10px;
+    top:26%;
+    margin-top:-10px;
+
+}
+.yuan{
+    width:18px;
+    height:18px;
+    /*margin-right:2px;*/
+    border-radius: 50%;
+    float: left;
+    border:1px solid #BCBCBC;
+    margin-top:0.2rem;
+}
+.yuan .yne{
+   width:14px;
+    height:14px;
+    border-radius: 50%;
+    border:1px solid #111;
+    margin:0 auto;
+    margin-top:1px;
+    font-size: 10px;
+    text-align: center;
+    line-height: 14px;
+}
+.shen{
+    float: left;
+    line-height: 0.7rem;
+    padding-right:5px;
+}
+.xzrig{
+   float: right;
+}
+.xzrig span{
+    float: left;
+    font-size: 10px;
+    line-height: 0.7rem;
+}
+
+
+.banq{
+    height: 0.86rem;
+    text-align: center;
+    font-size: 10px;
+    color: #666666;
+    background: #F5F6FA;
+}
+
+
+
+/*详情金牌讲师*/
+.ka2{
+    margin:0;
+    padding:0;
+    margin-top:10px;
+}
+.ka2 li{
+    margin:0 0.35rem;
+    list-style: none;
+    height:4rem;
+    background: #fff;
+    margin-top:10px;
+    padding:0.2rem 0.4rem;
+}
+.ka2 .left{
+    width:40%;
+    height: 2.8rem;
+    float: left;
+}
+
+.ka2 .left .zmimgs{
+    height: 2.8rem;
+}
+.shang{
+    height:0.6rem;
+    position: relative;
+    border-bottom:1px dashed #999;
+    margin-bottom:0.2rem;
+}
+.shang .ll{
+    width:4px;
+    height: 20px;
+    position: absolute;
+    background: #01B5FF;
+    left:-10px;
+}
+.shang span{
+    color: #666;
+    font-size: 12px;
+    line-height: 0.6rem;
+}
+.ka2 .right{
+    width:50%;
+    float: right;
+
+}
+.ka2 .right h4{
+    margin:0;
+    font-size: 16px;
+    color: #111;
+    font-weight: 800;
+    margin-top:10px;
+    margin-bottom:20px;
+}
+.ka2 .right h4 span{
+    font-size: 12px;
+    color: #01B5FF;
+}
+
+.ka2 .right h5{
+    margin:0;
+    font-size:14px;
+    color: #111;
+    font-weight:800;
+    line-height: 0.5rem;
+}
+.ka2 .right h5 span{
+    font-size: 10px;
+    color: #111;
+    font-weight:500;
+}
+.duan{
+    font-size: 10px;
+}
+
+
+/*热门问题*/
+.zankai{
+    text-align: center;
+    display: block;
+    width: 100%;
+    font-size: 12px;
+    line-height: 14px;
+    color: #FF9300;
+}
+.ka3{
+    margin:0;
+    padding:0;
+    margin-top:10px;
+}
+.ka3 li{
+    list-style: none;
+    background: #fff;
+    margin:0 0.35rem;
+    padding:0.2rem 0.4rem;
+    border-bottom:1px dashed #999;
+
+}
+.ka3 li .shang{
+    border:0;
+    line-height: 16px;
+    margin:0;
+}
+.ka3 li .shang span{
+    color: #444;
+    font-weight: 800;
+}
+.duan{
+    position: relative;
+    margin-bottom:0!important;
+}
+.duan .dlog{
+
+    position: absolute;
+    left:-10px;
+}
+.duan .dlog span{
+     display:inline-block;
+     width: .14rem;
+     height: .14rem;
+     border:1px solid #01B5FF;
+     border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
+    position: relative;
+
+ }
+.duan .dlog span i{
+    display: inline-block;
+    width: 0.06rem;
+    height:0.06rem;
+    background:#01B5FF;
+    border-radius: 50%;
+    position: absolute;
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+    margin:auto;
+
+
+}
+
+
+/*新闻详情*/
+.baoin {
+    display: block;
+    width:100%;
+    padding:0 0.4rem;
+    box-sizing: content-box;
+    height:4.3rem;
+    /*background: red;*/
+    position: relative;
+    left:-0.4rem;
+    overflow: hidden;
+}
+.baoin  img{
+    display: block;
+    height: 100%;
+    margin:0 auto;
+
+    position: absolute;
+    left:-0.4rem;
+    top:0;
+
+
+
+}
+.fenx{
+    width:100%;
+    padding:0 0.4rem;
+    margin:0 auto;
+    box-sizing: content-box;
+    position: relative;
+    left:-0.4rem;
+    overflow: hidden;
+}
+.fenx img{
+    height: 0.40rem;
+    margin-right:0.2rem;
+}
+
+.shxi a{
+    display: block;
+    width: 100%;
+    padding:0 0.4rem;
+    box-sizing:border-box;
+    font-size: 14px;
+    color: #111;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    line-height:30px;
+
+ }
+.zhg{
+    height:2.1rem;
+}
+.shxi a span{
+    font-size: 14px;
+    color: #01B5FF;
+
+}
+.xian{
+    width: 30%;
+    position: relative;
+    margin-left:5px;
+
+}
+.xian .k{
+    width: 2.5rem;
+    height: 1.8rem;
+    border:1px solid #40C7FF;
+    position: absolute;
+
+
+
+}
+.xian .k .sij:nth-child(1){
+    width:0.06rem;
+    height:0.06rem;
+    position: absolute;
+    left:-0.03rem;
+    top:-0.03rem;
+    background: #40C7FF;
+}
+.xian .k .sij:nth-child(2){
+    width:0.06rem;
+    height:0.06rem;
+    position: absolute;
+    right:-0.03rem;
+    top:-0.03rem;
+    background: #40C7FF;
+}
+.xian .k .sij:nth-child(3){
+    width:0.06rem;
+    height:0.06rem;
+    position: absolute;
+    left:-0.03rem;
+    bottom:-0.03rem;
+    background: #40C7FF;
+}
+.xian .k .sij:nth-child(4){
+    width:0.06rem;
+    height:0.06rem;
+    position: absolute;
+    right:-0.03rem;
+    bottom:-0.03rem;
+    background: #40C7FF;
+}
+.xian .photo{
+    display: block;
+    width: 2.48rem;
+    height: 1.8rem;
+    overflow: hidden;
+    position: absolute;
+    left:-10px;
+    top:10px;
+
+}
+.photo img{
+    width:100%;
+
+
+}
+.duan3{
+    width:60%;
+    float: right;
+    font-size: 10px;
+
+
+}
+.xidi{
+    float: left;
+    height: 0.8rem;
+    width: 100%;
+    border-top:1px solid #D8D8D8;
+    border-bottom:1px solid #D8D8D8;
+
+}
+.xidi a{
+    display: block;
+    width:33.333333%;
+    font-size: 10px;
+    float: left;
+    text-align:left;
+    color: #7C7C7C;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    line-height: 0.8rem;
+
+
+}
+.xidi img{
+    height: 0.3rem;
+}
+
+
+/*关于我们*/
+.koup{
+    display: block;
+    width:33.333333%;
+    float: left;
+    text-align: center;
+    margin-top:0.2rem;
+
+
+
+}
+.koup img{
+    height: 1.2rem;
+    vertical-align: middle;
+}
+
+/*高薪学员*/
+.ka4{
+    margin:0 0.35rem;
+   
+    box-sizing:border-box;
+}
+.ka4 .yang{
+    
+    height: 1.85rem;
+    background: #fff;
+    margin:0 auto;
+    margin-bottom:0.1rem;
+}
+.ka4 .yang .xzuo{
+    display: block;
+    width: 30%;
+    float: left;
+
+
+}
+.ka4 .yang .xzuo img{
+    display:block;
+     margin-top:0.25rem;
+     margin-left:10px;
+    height:1.35rem;
+    float:left;
+}
+.gri{
+    width: 70%;
+    float: left;
+    padding:0.1rem;
+
+}
+.gri h3{
+    display: block;
+   
+    line-height:0.5rem;
+    
+    margin:0;
+    padding:0;
+ }  
+.gri h3 i{
+    font-style: normal;
+    font-size:14px;
+    content: #111;
+     width: 1rem;
+    height: 0.5rem;
+     border-bottom:1px dashed #666;
+     float: left;
+
+
+}
+.gri h3 span{
+    font-size: 10px;
+    color: #666;
+}
+.gri .yue{
+    color: #94D43B;
+    font-size: 14px;
+}
+.adr{
+    color: #444;
+    font-size: 12px;
+}
+
+
+
+/*qianduan*/
+.koup2{
+     display: block;
+    width:25%;
+    float: left;
+    text-align: center;
+    height:2rem;
+  /*  margin-top:0.2rem;*/
+}
+.koup2 img{
+    height: 1.2rem;
+
+}
+.koup2 span{
+    font-size: 12px;
+    line-height: 0.2rem;
+    display: block;
+    color: #111;
+}
+.duanluo span{
+    width: 100%;
+    overflow: hidden;
+
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 12px;
+    display: block;
+    color: #01B5FF;
+    font-weight: 800;
+}
+.tutu {
+    display: block;
+    text-align:center;
+    box-sizing:content-box;
+    position: relative;
+    left:-0.35rem;
+}
+.tutu img{
+    margin-top:10px;
+    height: 4.4rem;
+}
+.tutu span{
+    color: #111;
+    font-size:14px;
+}
+.jiuy{
+    height: 0.8rem;
+    margin-top:0.1rem;
+}
+.jiuy .bai{
+    display: block;
+    float: left;
+    width:10%;
+    margin-top:0.12rem;
+    margin-right:0.5rem; 
+   
+}
+.jiuy .bai img{
+    height: 0.56rem;
+    
+}
+.jiuy strong{
+    display:block;
+    width:80%;
+    float:right;
+    color: #01B5FF;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.jiuy strong span{
+
+    display: block;
+    width: 100%;
+    color: #444;
+    font-size: 12px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+
+}
+.zhil{
+    position: relative;
+}
+.zhil th{
+    color: #111;
+    font-size: 12px;
+
+
+}
+.zhil table{
+    width: 100%;
+    text-align: center;
+
+}
+
+.dinw{
+    width:0.4rem;
+    height: 3.5rem;
+    position: absolute;
+    left:-15px;
+    top:27px;
+    z-index: 99;
+}
+.dinw img{
+    height: 3.5rem;
+}
+.zhil tr{
+    height:0.7rem;
+}
+.zhil tr td:nth-child(1){
+    display: block;
+    float: left;
+    width: 15%;
+    color: #111;
+    font-size: 12px;
+    overflow: hidden;
+
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.zhil tr td:nth-child(2){
+    display: block;
+    float: left;
+    width: 25%;
+    color: #FFA201;
+    font-size: 12px;
+    overflow: hidden;
+
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.zhil tr td:nth-child(3){
+    display: block;
+
+    width: 60%;
+    float:right;
+    color: #111;
+    font-size: 12px;
+    overflow: hidden;
+
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
